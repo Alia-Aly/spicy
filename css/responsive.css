@@ -1,0 +1,71 @@
+@media (min-width:200px) and (max-width:1200px){
+    .main,.call,.respon{
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+        font-size: 40px;
+        margin-right: 20px;
+        color: #5a2f27;
+        /* position: relative; */
+    }
+    /* .fa-bars:hover .respon{
+        display: block;
+    } */
+    .respon{
+        width: 80%;
+        height: 100px;
+        background-color: #5a2f27;
+        font-size: 15px;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        line-height: 40px;
+        padding: 10px 0px 30px 10px;
+    }
+    .respon a{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .respon a:hover{
+        color: #f6b219;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .title{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .form{
+        width: 95%;
+        margin:15px auto;
+    }
+    .menu{
+        flex-wrap: wrap;
+    }
+    .cover{
+        width: 95%;
+        margin:20px auto;
+    }
+    .dish p{
+        width: 95%;
+    }
+    .plate{
+        left: 23%;
+    }
+    .two h2{
+        font-size: 30px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .step{
+        width: 90%;
+        margin:20px auto;
+    }
+}
